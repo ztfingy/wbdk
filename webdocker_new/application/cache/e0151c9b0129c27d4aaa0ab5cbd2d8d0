@@ -1,0 +1,234 @@
+1353861303TS---><!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<title>Webdocker</title>
+<script type="text/javascript">
+	var base_url = 'http://localhost/webdocker_new/';
+	var site_url = 'http://localhost/webdocker_new/index.php/';
+	var preview_url = 'http://localhost/preview/';
+</script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script><link rel="stylesheet" href="http://localhost/webdocker_new/assets/css/bootstrap.css"><link href="http://localhost/webdocker_new/assets/css/colorbox.css?1353194808" media="screen" rel="stylesheet" type="text/css" /><link href="http://localhost/webdocker_new/assets/css/jquery-ui-1.8.2.custom.css?1353351084" media="screen" rel="stylesheet" type="text/css" /><link href="http://localhost/webdocker_new/assets/css/global.css?1353771783" media="screen" rel="stylesheet" type="text/css" /><link href="http://localhost/webdocker_new/assets/css/product.css?1353423296" media="screen" rel="stylesheet" type="text/css" /><script src="http://localhost/webdocker_new/assets/js/jquery/jquery.js?1352108858" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/jquery/jquery.ui.core.js?1352987992" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/jquery/jquery.ui.widget.js?1352987992" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/jquery/jquery.ui.position.js?1352987992" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/jquery/jquery.colorbox.js?1352987994" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/product_result.js?1353008110" type="text/javascript"></script><script src="http://localhost/webdocker_new/assets/js/global.js?1353456270" type="text/javascript"></script><!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	<div id="main">
+	<div id="content_header">
+		<div id="welcomeuser"> 
+        	<b>admin</b><a href="http://localhost/webdocker_new/index.php/authentication/logout"><img src="http://localhost/webdocker_new/assets/images/webdocker_03.png" alt="Disconnect" /></a><br/>           
+            
+        </div>
+		<div id="toolbar"> 
+			<ul>
+            	<li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_11.png" alt="Precedent" onclick="javascript:history.go(-1)" /></li>
+                <li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_13.png" alt="Prochain" onclick="javascript:history.go(1)" /></li>
+                <li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_15.png" alt="Actualiser" onclick="javascript:location.reload(true)" /></li>
+                <li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_17.png" alt="Accueil" onclick="location='http://localhost/webdocker_new/index.php'" /></li>
+                <li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_19.png" alt="Envoyer par Email" /></li>
+                <li><a href="http://localhost/webdocker_new/index.php/sms/received"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/sms_empty.png" alt="SMS" id='header_sms_img' /><span id='sms_count'>1</span></a></li>
+                <li><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_21.png" alt="Administration" /> </li>
+            </ul>
+        </div> 
+   
+        <div id="tabs">
+            <ul>
+                <li id="editList"><a>Nouveau</a></li>
+                <li id="searchList"><a>Rechercher</a></li>
+                <li><a href='http://localhost/webdocker_new/index.php/product/merchandise'>Merchandising</a></li>
+            </ul>
+        </div>
+        <div id="itemLists">
+        	<div id="editItemList">
+        	    <a class='colorbox_new_product' href="http://localhost/webdocker_new/index.php/product/add/product"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_38.png" /></a>
+                <a class='colorbox_new_product' href="http://localhost/webdocker_new/index.php/product/add/accessory"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_40.png" /></a>
+                <img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_38.png" />
+                <img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_40.png" />
+        	</div>
+        	<div id="searchItemList">
+        		<a href="http://localhost/webdocker_new/index.php/product/search/product"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_38.png" /></a>
+                <a href="http://localhost/webdocker_new/index.php/product/search/accessory"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_40.png"/></a>
+        	</div>
+        </div>
+	</div>
+	<div id="content_body"><div>
+	<a href="http://localhost/webdocker_new/index.php/product/search"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_30.png" alt="Search"/></a>
+    <a href="http://localhost/webdocker_new/index.php/product/search"><img class="imgbtn img_mouse_over" src="http://localhost/webdocker_new/assets/images/webdocker_32.png" alt="New Search"/></a> 
+    <img src="http://localhost/webdocker_new/assets/images/vertical_separation.png" /> 
+    <div class="merchandisingList">
+	    <img src="http://localhost/webdocker_new/assets/images/webdocker_35.png" class="merchandising"/>  
+	    <ul>
+	        <li><a href="#" class="addnewlist">new list</a></li>
+	        <li><a href="#" class="addexistlist">existed list</a></li>
+	    </ul>
+    </div>
+    <img src="http://localhost/webdocker_new/assets/images/spacer.gif" />
+    <br/>         
+</div>
+<img src="http://localhost/webdocker_new/assets/images/Horizontal_separation.png" class="horizontal_sep" />          
+<br />
+
+<div>
+	<img src="http://localhost/webdocker_new/assets/images/first.png" class="first"/>
+	<img src="http://localhost/webdocker_new/assets/images/prev.png" class="prev"/>
+	<span class="currentpage" id="currentpageid">1</span>/<span class="totalpage" id="totalpageid"></span>		        
+	<img src="http://localhost/webdocker_new/assets/images/next.png" class="next"/>
+	<img src="http://localhost/webdocker_new/assets/images/last.png" class="last"/>
+
+	show : 
+	<select class="pagesize" id="pagesizeid" style="width:60px">
+		<option selected="selected"  value="10" >10</option> 
+		<option value="20">20</option>
+		<option value="50">50</option>
+		<option  value="100">100</option>
+	</select>
+	
+	<table class="well table table-striped">
+								<tr>
+			<td width="140" valign="top"><input type="checkbox" value='1' />product1</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/1' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+						<tr>
+			<td width="140" valign="top"><input type="checkbox" value='3' />product2</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/3' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+						<tr>
+			<td width="140" valign="top"><input type="checkbox" value='4' />product3</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/4' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+						<tr>
+			<td width="140" valign="top"><input type="checkbox" value='5' />prodcut5</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/5' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+						<tr>
+			<td width="140" valign="top"><input type="checkbox" value='6' />product6</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/6' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+						<tr>
+			<td width="140" valign="top"><input type="checkbox" value='7' />product7</td>
+			<td width="93" valign="top"><div align="right"> </div></td>
+			<td width="25" valign="top"><div align="right"><a href='http://localhost/webdocker_new/index.php/product/modify/product/7' ><img src='http://localhost/webdocker_new/assets/images/webdocker_68.png' alt="View" border=0 /></a></div></td>
+			</tr>
+					</table>
+	
+	<br />
+	<label class="checkbox inline">
+	<input type="checkbox" name="" value=""/>all in this page
+	</label>
+	<br />
+	Total <span id="total_pieces_num">6 </span> pieces, Select <span id="total_pieces_num"></span> pieces
+	<br />
+	<img class="imgbtn img_mouse_over" id="btnShow1" src="http://localhost/webdocker_new/assets/images/webdocker_Dash5.png" alt="Dashboard Horizontal" />
+	<img class="imgbtn img_mouse_over" id="btnShow2" src="http://localhost/webdocker_new/assets/images/webdocker_Dash7.png" alt="Dashboard Vertical" />
+	<img class="imgbtn img_mouse_over" id="btnShow3" src="http://localhost/webdocker_new/assets/images/webdocker_Dash8.png" alt="Dashboard Horizontal Groupe"/>
+	<img class="imgbtn img_mouse_over" id="btnShow4" src="http://localhost/webdocker_new/assets/images/webdocker_Dash6.png" alt="Dashboard Vertical Groupe"/>	
+	<img class="imgbtn img_mouse_over" id="btnShow5" src="http://localhost/webdocker_new/assets/images/webdocker_Dash1.png" alt="Dashboard Fourniture" />
+	
+	<br />
+	<img class="imgbtn img_mouse_over" id="btnShow6" src="http://localhost/webdocker_new/assets/images/webdocker_Dash3.png" alt="Dashboard Alarme" />
+ 	<img class="imgbtn img_mouse_over" id="btnShow8" src="http://localhost/webdocker_new/assets/images/webdocker_Dash4.png" alt="Dashboard Parcs Famille" />
+ 	<img class="imgbtn img_mouse_over" id="btnShow9" src="http://localhost/webdocker_new/assets/images/webdocker_Dash5.png" alt="Dashboard Horizontal with Validation" />
+ 	<img class="imgbtn img_mouse_over" id="btnShow10" src="http://localhost/webdocker_new/assets/images/webdocker_Dash5.png" alt="Dashboard Analysis" />
+	<img src="http://localhost/webdocker_new/assets/images/Horizontal_separation.png" class="horizontal_sep" />
+</div>
+
+<div>
+<div id="field_template"></div>
+<table class="well" id="product_field_table">
+								<tr>
+				<td colspan="3" class='field_group_title_tr' id='2ba7d935758f759c3d0eb87f474564e0'>
+					<label class="checkbox inline"> 
+						<input type="checkbox" id="819e796f4897047bf6322c66a99d1aae" class="field_group_title_checkbox" value="">					</label> 	
+				</td>
+			</tr>
+			
+						<tr class='2ba7d935758f759c3d0eb87f474564e0'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="819e796f4897047bf6322c66a99d1aae product_fields" title='819e796f4897047bf6322c66a99d1aae' value="5">field 5					</label> 
+				</td>			
+			</tr>
+														<tr>
+				<td colspan="3" class='field_group_title_tr' id='769bf4afbf4e6023813c87a350657e85'>
+					<label class="checkbox inline"> 
+						<input type="checkbox" id="4b055a800a1356c3b519abfe20dd0b4e" class="field_group_title_checkbox" value="">field group 4					</label> 	
+				</td>
+			</tr>
+			
+						<tr class='769bf4afbf4e6023813c87a350657e85'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="4b055a800a1356c3b519abfe20dd0b4e product_fields" title='4b055a800a1356c3b519abfe20dd0b4e' value="4">field 4					</label> 
+				</td>			
+			</tr>
+														<tr>
+				<td colspan="3" class='field_group_title_tr' id='b0488eb6e4197c6aa79f7e74c703af2d'>
+					<label class="checkbox inline"> 
+						<input type="checkbox" id="c8d882e9926b8d69fbda9c2988d21581" class="field_group_title_checkbox" value="">field group 3					</label> 	
+				</td>
+			</tr>
+			
+						<tr class='b0488eb6e4197c6aa79f7e74c703af2d'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="c8d882e9926b8d69fbda9c2988d21581 product_fields" title='c8d882e9926b8d69fbda9c2988d21581' value="3">field 3					</label> 
+				</td>			
+			</tr>
+						<tr class='b0488eb6e4197c6aa79f7e74c703af2d'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="c8d882e9926b8d69fbda9c2988d21581 product_fields" title='c8d882e9926b8d69fbda9c2988d21581' value="7">field 7					</label> 
+				</td>			
+			</tr>
+														<tr>
+				<td colspan="3" class='field_group_title_tr' id='3832c2afcabe98857589cbbd4193a801'>
+					<label class="checkbox inline"> 
+						<input type="checkbox" id="2ebf278a1d858f8791884dd927d10aab" class="field_group_title_checkbox" value="">field group 2					</label> 	
+				</td>
+			</tr>
+			
+						<tr class='3832c2afcabe98857589cbbd4193a801'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="2ebf278a1d858f8791884dd927d10aab product_fields" title='2ebf278a1d858f8791884dd927d10aab' value="2">field 2					</label> 
+				</td>			
+			</tr>
+						<tr class='3832c2afcabe98857589cbbd4193a801'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="2ebf278a1d858f8791884dd927d10aab product_fields" title='2ebf278a1d858f8791884dd927d10aab' value="6">field 6					</label> 
+				</td>			
+			</tr>
+														<tr>
+				<td colspan="3" class='field_group_title_tr' id='eefadd3dc027d7cf3448f3adab5c2ca2'>
+					<label class="checkbox inline"> 
+						<input type="checkbox" id="1da893e3c564774143266cf35e97073e" class="field_group_title_checkbox" value="">field group 1					</label> 	
+				</td>
+			</tr>
+			
+						<tr class='eefadd3dc027d7cf3448f3adab5c2ca2'>
+				<td>
+					<label class="checkbox inline"> 
+						<input type="checkbox" name="product_field" class="1da893e3c564774143266cf35e97073e product_fields" title='1da893e3c564774143266cf35e97073e' value="1">field 1					</label> 
+				</td>			
+			</tr>
+						</table>
+
+
+</div>
+
+
+	</div>  <!-- end of #content_body -->
+	<div id="content_footer">
+		©2011 C-DESIGN®.ALL RIGHTS RESERVED. V3.0
+	</div>
+</body>
+</html>

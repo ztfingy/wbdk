@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+#modify-product-toolbar{
+	position: fixed;
+	top:78px;
+	left:-270px;
+	background-color:#FFF;
+	width: 278px;
+	z-index: 10;
+}
+#search-result-toolbar{
+	position:fixed;
+	top:78px;
+	left:-270px;
+	background-color:#FFF;
+	width: 278px;
+	z-index: 10;
+}
+#product_name_div{
+	width:90px;
+}
+.field_group_title_tr{
+	background-color:rgb(56, 85, 125);
+	color:#FFF;
+}
+.field_input{
+	width:160px;
+}
+
+.field_date{
+	width:115px;
+}
+
+.field_dropdown{
+	width:174px;
+}
+
+.field_multiselect{
+	width:174px;
+}
+
+.field_price{
+	width:133px;
+}
+
+.field_note{
+	width:160px;
+}
+
+.field_listvariable{
+	width:174px;
+}
+
+.merchandisingList {
+    display: inline;
+    position: relative;
+}
+.merchandisingList ul {
+    background-color: #99CCFF;
+    display: none;
+    left: 48px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
+.merchandisingList ul a {
+    display: block;
+    width: 60px;
+}
+.merchandisingList ul a:hover {
+    background-color: #6699CC;
+}
+
+#product_field_table{
+	width:100%;
+}
+
+#fichiers_joint {
+	display:block;
+	text-align:center;
+	line-height:45px;
+	padding-left:10px;
+    width:123px;
+	height:45px;
+    background-image:url(../images/webdocker_89.png_over.png);
+	background-repeat:no-repeat;
+	color:#38557D;
+}
+#revisions {
+	display:block;
+	text-align:center;
+	line-height:45px;
+	padding-left:10px;
+    width:123px;
+	height:45px;
+    background-image:url(../images/revision2.png_over.png);
+	background-repeat:no-repeat;
+	color:#38557D;
+	cursor:pointer;
+}
+#open_pdf {
+	display:block;
+	text-align:center;
+	line-height:45px;
+	padding-left:10px;
+    width:123px;
+	height:45px;
+    background-image:url(../images/OuvrirPDF.png_over.png);
+	background-repeat:no-repeat;
+	color:#38557D;
+	cursor:pointer;
+}
+.horizontal_sep {
+    width:100%;
+	display:block;
+}
+#product_form_table{
+	width:276px;
+}
+.product_preview_div{
+	width: 100%;
+	text-align: center;
+}
+.product_preview_image{
+	margin:0px auto;
+	width: 150px;
+	height: 150px;
+	border: solid 1px #CCC;
+}
+.product_preview_upload{
+	width: 100%;
+	text-align:left;
+}
+#preview_block{
+	cursor: pointer;
+}
+

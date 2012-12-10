@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+.sms_main{
+	border:1px solid #38557D; 
+	background-color:#FFF; 
+	overflow:hidden;
+	margin:10px;
+}
+.sms_receive_header{
+	background-image:url(../images/BarreBleu_recu.png); 
+	background-repeat: no-repeat; 
+	padding: 7px;
+}
+.sms_new_header{
+	background-image:url(../images/BarreBleu_nouveau.png); 
+	background-repeat: no-repeat; 
+	padding: 7px;
+}
+.sms_sent_header{
+	background-image:url(../images/BarreBleu_envoyes.png); 
+	background-repeat: no-repeat; 
+	padding: 7px;
+}
+.sms_delete_header{
+	background-image:url(../images/BarreBleu_jetes.png); 
+	background-repeat: no-repeat; 
+	padding: 7px;
+}
+.sms_title{
+	color:#FFF;
+	font-size: 20px
+}
+.sms_table{
+	border-bottom:1px solid #CEDAEB;
+	width:100%;
+}
+.sms_bottom_left_icon{
+	float:right;
+	margin:5px
+}
+
+.sms_bottom_right_icon{
+	float:right;
+	margin:5px
+}
+
+#sms_search{
+	margin:0px;
+}
+#smsorder{
+	margin:0px;
+	height:25px;
+	font-size:11px;
+	width:90px;
+	padding:4px 2px;
+}
+#searchword{
+	font-size:11px;
+	height:15px;
+}
+#sms_searach_btn{
+	height:15px;
+	width:20px;
+	padding:4px 0px;
+}
+
+#pagenum{
+	margin:0px;
+	height:25px;
+	font-size:11px;
+	width:90px;
+	padding:4px 2px;
+}
+
+#sms_send_type{
+	width:70px;
+	padding-left:2px;
+}
+#sms_send_item{
+	border-radius: 0 4px 4px 0;
+}
+
+
+#smscontent{
+	width:242px;
+	height:198px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.sms_table{
+	width:100%;
+}
+
+#smslist{
+	padding-left:10px;
+	padding-right:10px;
+}
+.welcome_item_content{
+	border-bottom:1px solid #CEDAEB;
+}
